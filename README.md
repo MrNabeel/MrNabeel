@@ -18,6 +18,11 @@ A production-deployed **RAG chatbot** built for Montclair State University's Fel
 
 `Python` · `RAG` · `Prompt Engineering` · `Claude API` · `BeautifulSoup4` · `Chatbase`
 
+### 📈 [Quant Trading Lab](https://github.com/MrNabeel/quant-trading-lab)
+A live, fully automated intraday systematic trading system for US equities — designed, built, and operated end-to-end. The repo documents the **engineering** (two-tier stops, exit race-condition handling, multi-feed failover, state reconciliation) and the research direction; the strategy itself stays private. *I share how it's built, not the alpha.*
+
+`Python` · `Systematic Trading` · `Algorithmic Order Management` · `Risk Engineering`
+
 ### 📊 [Power BI — Data Jobs Dashboard](https://github.com/MrNabeel/PowerBI_DataJobs_Dashboard-Project-1)
 Interactive dashboard analyzing global job-market trends across **479K+ records**, built with Power Query and DAX to calculate KPIs and compare salaries by title and region.
 
@@ -27,8 +32,9 @@ Interactive dashboard analyzing global job-market trends across **479K+ records*
 
 ## 🧪 Currently Building
 
-- **Algorithmic strategy research on [QuantConnect](https://www.quantconnect.com/) (LEAN engine)** — designing and backtesting systematic equity strategies, evaluating them with metrics like Sharpe ratio, drawdown, and win rate. This is where my quantitative interest meets real engineering.
-- **Applied-AI tooling** — exploring RAG and LLM-agent workflows over my own datasets, with a project I plan to release publicly soon.
+- **Algorithmic strategy research on [QuantConnect](https://www.quantconnect.com/) (LEAN engine)** — designing and backtesting systematic equity strategies, evaluated on Sharpe, drawdown, and win rate.
+- **Behavioral ML for trading** — turning my own trading journals and self-review into a labeled dataset, then a lightweight model that flags counterproductive patterns *before* they happen. Treating trader psychology as a data problem (more in [Quant Trading Lab](https://github.com/MrNabeel/quant-trading-lab)).
+- **Applied-AI tooling** — RAG and LLM-agent workflows over my own datasets, built fast with AI-assisted development.
 
 ---
 
