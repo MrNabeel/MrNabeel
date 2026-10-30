@@ -1,75 +1,44 @@
-# Hi, I'm  Nabeel 👋
+# Muhammad Nabeel
 
-**Business Analytics student** (BBA, Montclair State University — graduating Fall 2026) working at the intersection of **data analytics, applied AI, and quantitative research.**
+Business analytics student, builder and trader in Parsippany, New Jersey. I learn by making things that have to work for real people, and then measuring whether they do.
 
-I like building end-to-end systems — from a deployed RAG chatbot to interactive dashboards — and turning raw data into clear, automated decisions. I learn by building on my own data and problems, not textbook exercises.
+## About
 
-📍 Parsippany, NJ · 💼 [LinkedIn](https://www.linkedin.com/in/mrnabeel1) · 🌐 [Portfolio](https://muhammadnabeelprotfolio.base44.app)
+I am finishing a BBA in Business Analytics at Montclair State University (Fall 2026). What drives me is curiosity about how people and machines make decisions together, and a habit of testing an idea against a number before I believe it. I trade US equities at the market open with a system I built and run myself, I build software in the evenings, and I spend the hours in between studying how large language models are changing the work that businesses do.
 
-## 🔥 Ember, what I'm building now
+I am not interested in demos. I am interested in what a tool actually does for the person using it, measured against how that person worked before. I want to be very good at this, and I would rather be corrected by a measurement than flattered by a result.
 
-**[Ember](https://embernotebook.com) is a private AI notebook for your Mac, public since October 30, 2026.** I designed and built it. Your notes are plain Markdown files in a folder on your Mac. The AI you sign in with (Claude, ChatGPT or Google, or the free Ollama app on your own Mac) reads the notes you hand it and writes there. Your notes reach an AI only when you ask for something, or when Ember suggests your next words as you type. Ember has no ads and does not track you.
+## Ember
 
-🌐 [embernotebook.com](https://embernotebook.com) · 🐙 [GitHub page and download](https://github.com/embernotebook/ember) · 🔒 [Privacy](https://embernotebook.com/privacy.html) · ▶️ [YouTube](https://www.youtube.com/@embernotebook)
+Ember is a private AI notebook for Mac that I designed and built. It went public in October 2026. Your notes are plain Markdown files in a folder on your Mac. The AI you sign in with (Claude, ChatGPT or Google, or the free Ollama app on your own Mac) reads the notes you hand it and writes there. Your notes reach an AI only when you ask for something, or when Ember suggests your next words as you type. Ember has no ads and does not track you.
+
+[Website](https://embernotebook.com) · [GitHub page and download](https://github.com/embernotebook/ember) · [Privacy](https://embernotebook.com/privacy.html) · [YouTube](https://www.youtube.com/@embernotebook)
 
 <p align="center">
-  <img src="https://embernotebook.com/assets/hero-grid-light.jpg" width="720" alt="Your favorite AI runs the way it runs, in a tab beside your notes">
+  <img src="https://embernotebook.com/assets/hero-grid-light.jpg" width="640" alt="Your favorite AI runs the way it runs, in a tab beside your notes">
 </p>
 
-`Python` · `Flask` · `JavaScript` · `Signed and notarized Mac app` · `Local-first AI`
+## Projects
 
----
+| Project | What it is |
+|---|---|
+| [Aiming to replace the analyst?](https://github.com/MrNabeel/aiming-to-replace-the-analyst) | A study of whether a language model can read an earnings press release and call the stock's move, built against a measured human baseline, in INFO 367 (Applied Large Language Models for Business). I led the team of four. Two careful readers matched the market 33% of the time; Gemini reached 58% at half a cent a release, with a re-run showing the gaps between settings are noise. The page explains why the information is not on the page for anyone, where AI does replace the reading, and the seven steps I would run before a business automates it. |
+| [Makena](https://github.com/MrNabeel/makena-msu-advisor) | A RAG advising chatbot deployed for Montclair State University's Feliciano School of Business, where I was project manager and lead developer. A custom asynchronous Python scraping pipeline, isolated data silos that fixed an undergraduate-versus-graduate "data bleed", and a system prompt hardened against more than 35 red-team prompts. Benchmarked at 9.2 out of 10. [Try it live](https://www.chatbase.co/GeaLoS1HzU00TcJnmPRTQ/help). |
+| [Quant Trading Lab](https://github.com/MrNabeel/quant-trading-lab) | A live, fully automated intraday trading system for US equities, designed, built and operated end to end, with the research, risk tooling and behavioral-ML ideas around it. The engineering is documented; the strategy stays private. |
+| [Data Jobs Dashboard](https://github.com/MrNabeel/PowerBI_DataJobs_Dashboard-Project-1) | An interactive Power BI dashboard over more than 479,000 global job postings, built with Power Query and DAX: KPIs and salary comparisons by title and region. |
 
-## 🚀 Featured Projects
+## What I am learning now
 
-### 🧪 [Aiming to replace the analyst? Humans 33%, AI 58%, and what the market sees that neither can](https://github.com/MrNabeel/aiming-to-replace-the-analyst)
-The question every business is asking, tested on one real task in **INFO 367, Applied LLMs for Business**: can a model read an earnings press release and call the stock's move? I led a team of four: a 300-record dataset built from **SEC EDGAR**, a labeling guide two people agreed on (**Cohen's kappa 0.88**), and five classifiers priced per call. The careful humans matched the market 33%; **Gemini** got 58% at half a cent a release, with a re-run that showed the gaps are noise. The page says why the information is not on the page for anyone, where AI does replace the reading, and the seven steps I would run before a business automates it, with cited research.
+- **Applied large language models for business.** Labeling guides, inter-rater agreement, evaluation harnesses, cost per call, and the human baseline every automation claim has to beat. In December the earnings study grows to 500 or more records, with confidence intervals, a timed human baseline and a cost model against an analyst's wage.
+- **Systematic trading research.** Designing and backtesting equity strategies on QuantConnect's LEAN engine, and turning my own trading journals into a labeled dataset for a small model that flags the patterns that cost me money.
+- **Shipping software people can trust.** Taking Ember from a working app to a signed, notarized Mac release with an update path, and writing the privacy page to match what the code does.
 
-`Python` · `Gemini API` · `scikit-learn` · `LLM evaluation` · `Human baseline` · `Cohen's kappa` · `SEC EDGAR`
+## Tools
 
-### 🤖 [Makena — AI Academic Advisor Chatbot (RAG)](https://github.com/MrNabeel/makena-msu-advisor)
-A production-deployed **RAG chatbot** built for Montclair State University's Feliciano School of Business, where I was project manager and lead developer. Benchmarked **9.2/10** across five evaluation dimensions.
-- Custom **asynchronous Python scraping pipeline** (`aiohttp`, `asyncio`, `BeautifulSoup4`) — rate-limited and domain-bounded to respect the university network.
-- Solved an undergraduate/graduate "data bleed" hallucination with **isolated data silos**, then hardened the system prompt against **35+ red-team prompts**.
-- **▶ [Try it live (no sign-in)](https://www.chatbase.co/GeaLoS1HzU00TcJnmPRTQ/help)**
+Python (pandas, NumPy, scikit-learn), SQL, Power BI (DAX, Power Query), Tableau, Excel, Bloomberg Terminal, the Claude and Gemini APIs, retrieval and evaluation workflows for language models, web scraping (BeautifulSoup4, asyncio), Git and GitHub, Jupyter, Claude Code.
 
-`Python` · `RAG` · `Prompt Engineering` · `Claude API` · `BeautifulSoup4` · `Chatbase`
+## Contact
 
-### 📈 [Quant Trading Lab](https://github.com/MrNabeel/quant-trading-lab)
-A live, fully automated intraday systematic trading system for US equities — designed, built, and operated end-to-end. The repo documents the **engineering** (two-tier stops, exit race-condition handling, multi-feed failover, state reconciliation) and the research direction; the strategy itself stays private. *I share how it's built, not the alpha.*
+[LinkedIn](https://www.linkedin.com/in/mrnabeel1) · [Portfolio](https://muhammadnabeelprotfolio.base44.app) · [Email](mailto:muhammadnabeel87@icloud.com)
 
-`Python` · `Systematic Trading` · `Algorithmic Order Management` · `Risk Engineering`
-
-### 📊 [Power BI — Data Jobs Dashboard](https://github.com/MrNabeel/PowerBI_DataJobs_Dashboard-Project-1)
-Interactive dashboard analyzing global job-market trends across **479K+ records**, built with Power Query and DAX to calculate KPIs and compare salaries by title and region.
-
-`Power BI` · `Power Query` · `DAX` · `Data Cleaning`
-
----
-
-## 🧪 Currently Building
-
-- **[Ember](https://embernotebook.com)**, the private AI notebook for Mac above: version 0.59.0 is public, and it keeps updating itself from here.
-- **INFO 367 final project** (December): the earnings-release study above scaled to 500+ records, with bootstrap confidence intervals, a timed human baseline and a cost model against an analyst's wage.
-- **Algorithmic strategy research on [QuantConnect](https://www.quantconnect.com/) (LEAN engine)** — designing and backtesting systematic equity strategies, evaluated on Sharpe, drawdown, and win rate.
-- **Behavioral ML for trading** — turning my own trading journals and self-review into a labeled dataset, then a lightweight model that flags counterproductive patterns *before* they happen. Treating trader psychology as a data problem (more in [Quant Trading Lab](https://github.com/MrNabeel/quant-trading-lab)).
-- **Applied-AI tooling** — RAG and LLM-agent workflows over my own datasets, built fast with AI-assisted development.
-
----
-
-## 🛠️ Skills
-
-**Programming & AI:** Python (Pandas, NumPy) · RAG & LLM systems · Prompt engineering · Claude API · Web scraping (BeautifulSoup4, asyncio) · Gemini API · LLM evaluation (labeling guides, Cohen's kappa, cost per call)
-**Data & Analytics:** SQL · Power BI (DAX, Power Query) · Tableau · Excel · Data visualization
-**Quantitative & Markets:** Algorithmic backtesting (QuantConnect) · Quantitative analysis · Risk management · Bloomberg Terminal
-**Tools:** Git / GitHub · REST APIs · Jupyter · Claude Code
-
----
-
-## 📫 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mrnabeel1-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mrnabeel1)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-2EA44F?logo=googlechrome&logoColor=white)](https://muhammadnabeelprotfolio.base44.app)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:muhammadnabeel87@icloud.com)
-
-<sub>Open to opportunities in data analytics, applied AI, and quantitative research.</sub>
+Open to conversations and opportunities in data analytics, applied AI and quantitative research.
