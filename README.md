@@ -6,6 +6,18 @@ I like building end-to-end systems — from a deployed RAG chatbot to interactiv
 
 📍 Parsippany, NJ · 💼 [LinkedIn](https://www.linkedin.com/in/mrnabeel1) · 🌐 [Portfolio](https://muhammadnabeelprotfolio.base44.app)
 
+## 🔥 Ember, what I'm building now
+
+**[Ember](https://embernotebook.com) is a private AI notebook for your Mac, public since October 30, 2026.** I designed and built it. Your notes are plain Markdown files in a folder on your Mac. The AI you sign in with (Claude, ChatGPT or Google, or the free Ollama app on your own Mac) reads the notes you hand it and writes there. Your notes reach an AI only when you ask for something, or when Ember suggests your next words as you type. Ember has no ads and does not track you.
+
+🌐 [embernotebook.com](https://embernotebook.com) · 🐙 [GitHub page and download](https://github.com/embernotebook/ember) · 🔒 [Privacy](https://embernotebook.com/privacy.html) · ▶️ [YouTube](https://www.youtube.com/@embernotebook)
+
+<p align="center">
+  <img src="https://embernotebook.com/assets/hero-grid-light.jpg" width="720" alt="Your favorite AI runs the way it runs, in a tab beside your notes">
+</p>
+
+`Python` · `Flask` · `JavaScript` · `Signed and notarized Mac app` · `Local-first AI`
+
 ---
 
 ## 🚀 Featured Projects
@@ -32,6 +44,7 @@ Interactive dashboard analyzing global job-market trends across **479K+ records*
 
 ## 🧪 Currently Building
 
+- **[Ember](https://embernotebook.com)**, the private AI notebook for Mac above: version 0.59.0 is public, and it keeps updating itself from here.
 - **Algorithmic strategy research on [QuantConnect](https://www.quantconnect.com/) (LEAN engine)** — designing and backtesting systematic equity strategies, evaluated on Sharpe, drawdown, and win rate.
 - **Behavioral ML for trading** — turning my own trading journals and self-review into a labeled dataset, then a lightweight model that flags counterproductive patterns *before* they happen. Treating trader psychology as a data problem (more in [Quant Trading Lab](https://github.com/MrNabeel/quant-trading-lab)).
 - **Applied-AI tooling** — RAG and LLM-agent workflows over my own datasets, built fast with AI-assisted development.
