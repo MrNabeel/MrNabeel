@@ -22,6 +22,11 @@ I like building end-to-end systems — from a deployed RAG chatbot to interactiv
 
 ## 🚀 Featured Projects
 
+### 🧪 [Aiming to replace the analyst? Humans 33%, AI 58%, and what the market sees that neither can](https://github.com/MrNabeel/aiming-to-replace-the-analyst)
+The question every business is asking, tested on one real task in **INFO 367, Applied LLMs for Business**: can a model read an earnings press release and call the stock's move? I led a team of four: a 300-record dataset built from **SEC EDGAR**, a labeling guide two people agreed on (**Cohen's kappa 0.88**), and five classifiers priced per call. The careful humans matched the market 33%; **Gemini** got 58% at half a cent a release, with a re-run that showed the gaps are noise. The page says why the information is not on the page for anyone, where AI does replace the reading, and the seven steps I would run before a business automates it, with cited research.
+
+`Python` · `Gemini API` · `scikit-learn` · `LLM evaluation` · `Human baseline` · `Cohen's kappa` · `SEC EDGAR`
+
 ### 🤖 [Makena — AI Academic Advisor Chatbot (RAG)](https://github.com/MrNabeel/makena-msu-advisor)
 A production-deployed **RAG chatbot** built for Montclair State University's Feliciano School of Business, where I was project manager and lead developer. Benchmarked **9.2/10** across five evaluation dimensions.
 - Custom **asynchronous Python scraping pipeline** (`aiohttp`, `asyncio`, `BeautifulSoup4`) — rate-limited and domain-bounded to respect the university network.
@@ -45,6 +50,7 @@ Interactive dashboard analyzing global job-market trends across **479K+ records*
 ## 🧪 Currently Building
 
 - **[Ember](https://embernotebook.com)**, the private AI notebook for Mac above: version 0.59.0 is public, and it keeps updating itself from here.
+- **INFO 367 final project** (December): the earnings-release study above scaled to 500+ records, with bootstrap confidence intervals, a timed human baseline and a cost model against an analyst's wage.
 - **Algorithmic strategy research on [QuantConnect](https://www.quantconnect.com/) (LEAN engine)** — designing and backtesting systematic equity strategies, evaluated on Sharpe, drawdown, and win rate.
 - **Behavioral ML for trading** — turning my own trading journals and self-review into a labeled dataset, then a lightweight model that flags counterproductive patterns *before* they happen. Treating trader psychology as a data problem (more in [Quant Trading Lab](https://github.com/MrNabeel/quant-trading-lab)).
 - **Applied-AI tooling** — RAG and LLM-agent workflows over my own datasets, built fast with AI-assisted development.
@@ -53,7 +59,7 @@ Interactive dashboard analyzing global job-market trends across **479K+ records*
 
 ## 🛠️ Skills
 
-**Programming & AI:** Python (Pandas, NumPy) · RAG & LLM systems · Prompt engineering · Claude API · Web scraping (BeautifulSoup4, asyncio)
+**Programming & AI:** Python (Pandas, NumPy) · RAG & LLM systems · Prompt engineering · Claude API · Web scraping (BeautifulSoup4, asyncio) · Gemini API · LLM evaluation (labeling guides, Cohen's kappa, cost per call)
 **Data & Analytics:** SQL · Power BI (DAX, Power Query) · Tableau · Excel · Data visualization
 **Quantitative & Markets:** Algorithmic backtesting (QuantConnect) · Quantitative analysis · Risk management · Bloomberg Terminal
 **Tools:** Git / GitHub · REST APIs · Jupyter · Claude Code
