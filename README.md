@@ -1,4 +1,4 @@
-# Hi, I'm Muhammad Nabeel 👋
+# Hi, I'm  Nabeel 👋
 
 **Business Analytics student** (BBA, Montclair State University — graduating Fall 2026) working at the intersection of **data analytics, applied AI, and quantitative research.**
 
