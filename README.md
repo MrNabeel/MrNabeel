@@ -1,4 +1,4 @@
-# Muhammad Nabeel
+
 
 I build and evaluate systems where people and large language models work together: a private AI notebook for Mac, a deployed advising chatbot, and a measured study of what a language model can and cannot read in an earnings release.
 
